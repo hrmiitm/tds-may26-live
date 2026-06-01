@@ -1,7 +1,7 @@
 # Day 1 Teaching Guide — Setup Day
 ## TDS Bridge Bootcamp
 
-> **Who this is for:** Students who know Python (syntax, functions, lists, dicts) but have never seriously used a terminal or Linux.
+> **Who this is for:** Students who know Python (syntax, functions, lists, dicts) but have never seriously used a terminal or Linux.  
 > **Goal by end of session:** Student is comfortable in a Linux terminal, can navigate paths (including `~`, `.`, `..`, and `/mnt/c`), understands redirection (`>` vs `>>`), and can run `python`, `git`, and `uv` from inside a Linux shell.
 
 ---
