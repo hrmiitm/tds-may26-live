@@ -17,7 +17,7 @@ Team:
 
 > Marks: `GA` + `ROE` + `2 Projects` + `EndTerm Exam` + BonusMarksisOptional
 
-**Weitage:(Approx)**   
+**Weightage:(Approx)**   
 - 20 each
 
 ## Doubts
