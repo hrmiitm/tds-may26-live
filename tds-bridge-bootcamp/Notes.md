@@ -1,0 +1,10 @@
+# Run `wsl --install`
+
+# Github --> New Repo(tds-bootcamp) --> Use UI to create files/folder
+
+# Python / Git / UV installation
+- python3 --version
+- sudo apt install git
+- https://docs.astral.sh/uv/#installation
+
+# Updating in github repo Day-1.md
