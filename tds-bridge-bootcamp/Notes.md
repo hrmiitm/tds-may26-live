@@ -1,4 +1,5 @@
 # Run `wsl --install`
+- https://hrmiitm.github.io/tds/W0/1_wsl_setup.html
 
 # Github --> New Repo(tds-bootcamp) --> Use UI to create files/folder
 
