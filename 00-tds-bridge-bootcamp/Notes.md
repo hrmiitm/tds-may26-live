@@ -30,6 +30,12 @@ Team:
 
 --- 
 
+
+# Windows no
+
+# Windows + WSL 
+# Linux/Mac
+
 ### Run `wsl --install`
 - https://hrmiitm.github.io/tds/W0/1_wsl_setup.html
 
