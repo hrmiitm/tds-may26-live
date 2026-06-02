@@ -1,3 +1,9 @@
+# Mandatory Bootcamp Submission Form
+- https://exam.sanand.workers.dev/tds-2026-05-bootcamp
+- You can submit until June 7, 2026 (23:59 IST)
+- Multiple attempts are allowed, but only the last submission will be counted
+- Mandatory but Not Graded
+
 # Important Notes
 - Official Learning Resource: https://tds.s-anand.net/
 - GA & ROE : http://exam.sanand.workers.dev/
