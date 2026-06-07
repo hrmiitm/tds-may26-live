@@ -1,0 +1,224 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8"/>
+<meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+<title>TDS Bootcamp - Course Materials</title>
+<meta name="description" content="Access TDS Bootcamp course notes, daily modules, checklists, and feedback reports."/>
+<link rel="preconnect" href="https://fonts.googleapis.com"/>
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet"/>
+<style>
+  *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
+  :root {
+    --bg: #f8f9fc;
+    --surface: #fff;
+    --border: #e2e6ef;
+    --text: #1a1d2e;
+    --muted: #6b7394;
+    --primary: #6c63ff;
+    --secondary: #0891b2;
+    --hover: #f1f3f9;
+    --radius: 14px;
+  }
+  body {
+    background: var(--bg);
+    color: var(--text);
+    font-family: 'Inter', system-ui, sans-serif;
+    font-size: 16px;
+    line-height: 1.6;
+    padding: 60px 20px;
+  }
+  .container {
+    max-width: 800px;
+    margin: 0 auto;
+  }
+  header {
+    text-align: center;
+    margin-bottom: 48px;
+  }
+  header h1 {
+    font-size: 2.8rem;
+    font-weight: 800;
+    margin-bottom: 12px;
+    color: var(--text);
+    letter-spacing: -0.5px;
+  }
+  header h1 span {
+    background: linear-gradient(135deg, var(--primary), var(--secondary));
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+  }
+  header p {
+    color: var(--muted);
+    font-size: 1.15rem;
+  }
+  .card {
+    background: var(--surface);
+    border: 1px solid var(--border);
+    border-radius: var(--radius);
+    padding: 28px;
+    margin-bottom: 28px;
+    box-shadow: 0 4px 12px rgba(0,0,0,0.03);
+    transition: transform 0.25s ease, box-shadow 0.25s ease;
+  }
+  .card:hover {
+    transform: translateY(-3px);
+    box-shadow: 0 12px 24px rgba(0,0,0,0.08);
+  }
+  .card h2 {
+    font-size: 1.35rem;
+    font-weight: 700;
+    margin-bottom: 20px;
+    display: flex;
+    align-items: center;
+    gap: 12px;
+    color: var(--text);
+  }
+  .file-list {
+    list-style: none;
+  }
+  .file-list li {
+    margin-bottom: 14px;
+  }
+  .file-list li:last-child {
+    margin-bottom: 0;
+  }
+  .file-link {
+    display: flex;
+    align-items: center;
+    gap: 14px;
+    padding: 14px 18px;
+    border-radius: 10px;
+    text-decoration: none;
+    color: var(--text);
+    background: var(--bg);
+    border: 1px solid var(--border);
+    transition: all 0.2s ease;
+    font-weight: 600;
+  }
+  .file-link:hover {
+    background: var(--hover);
+    border-color: #c0c6d8;
+    color: var(--primary);
+  }
+  .icon {
+    font-size: 1.3rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 32px;
+    height: 32px;
+    background: #fff;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0,0,0,0.05);
+  }
+  .badge {
+    margin-left: auto;
+    font-size: 0.75rem;
+    padding: 5px 12px;
+    border-radius: 999px;
+    background: rgba(108, 99, 255, 0.08);
+    color: var(--primary);
+    font-weight: 700;
+    text-transform: uppercase;
+    letter-spacing: 0.5px;
+  }
+  .badge.html { background: rgba(5, 150, 105, 0.1); color: #059669; }
+  .badge.md { background: rgba(8, 145, 178, 0.1); color: #0891b2; }
+  .badge.dir { background: rgba(107, 115, 148, 0.1); color: var(--muted); }
+  
+  footer {
+    text-align: center;
+    margin-top: 50px;
+    padding-top: 24px;
+    border-top: 1px solid var(--border);
+    color: var(--muted);
+    font-size: 0.9rem;
+  }
+</style>
+</head>
+<body>
+
+<div class="container">
+  <header>
+    <h1>TDS Bootcamp <span>Materials</span></h1>
+    <p>Access all course notes, daily modules, checklists, and feedback reports.</p>
+  </header>
+
+  <div class="card">
+    <h2><span class="icon">📁</span> Core Resources</h2>
+    <ul class="file-list">
+      <li>
+        <a href="00-tds-bridge-bootcamp/bootcamp-feedback.html" class="file-link">
+          <span class="icon">📊</span>
+          Student Feedback Report
+          <span class="badge html">HTML</span>
+        </a>
+      </li>
+      <li>
+        <a href="00-tds-bridge-bootcamp/Notes.md" class="file-link">
+          <span class="icon">📝</span>
+          Bootcamp Notes
+          <span class="badge md">MD</span>
+        </a>
+      </li>
+      <li>
+        <a href="00-tds-bridge-bootcamp/TDS_Bootcamp_Combined_Checklist.md" class="file-link">
+          <span class="icon">✅</span>
+          Combined Checklist
+          <span class="badge md">MD</span>
+        </a>
+      </li>
+    </ul>
+  </div>
+  
+  <div class="card">
+    <h2><span class="icon">📅</span> Daily Modules</h2>
+    <ul class="file-list">
+      <li>
+        <a href="00-tds-bridge-bootcamp/Day-1/" class="file-link">
+          <span class="icon">🖥️</span>
+          Day 1 — Linux & Terminal
+          <span class="badge dir">Dir</span>
+        </a>
+      </li>
+      <li>
+        <a href="00-tds-bridge-bootcamp/Day-2/" class="file-link">
+          <span class="icon">📡</span>
+          Day 2 — Shell Power
+          <span class="badge dir">Dir</span>
+        </a>
+      </li>
+      <li>
+        <a href="00-tds-bridge-bootcamp/Day-3/" class="file-link">
+          <span class="icon">🐍</span>
+          Day 3 — Python & uv
+          <span class="badge dir">Dir</span>
+        </a>
+      </li>
+      <li>
+        <a href="00-tds-bridge-bootcamp/Day-4/" class="file-link">
+          <span class="icon">⚡</span>
+          Day 4 — APIs & FastAPI
+          <span class="badge dir">Dir</span>
+        </a>
+      </li>
+      <li>
+        <a href="00-tds-bridge-bootcamp/Day-5/" class="file-link">
+          <span class="icon">🌿</span>
+          Day 5 — Git & GitHub
+          <span class="badge dir">Dir</span>
+        </a>
+      </li>
+    </ul>
+  </div>
+  
+  <footer>
+    TDS Bootcamp &bull; Directory Index
+  </footer>
+
+</div>
+
+</body>
+</html>
