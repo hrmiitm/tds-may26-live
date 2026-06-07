@@ -5,18 +5,7 @@
 The terminal can feel intimidating, but it is simply a text-based interface for interacting with your machine. By learning to link commands, you can perform complex operations in seconds that would take minutes using a mouse. 
 
 
-[![Watch the video](https://youtu.be/iwolPf6kN-k)](https://youtu.be/iwolPf6kN-k)
-
-
-🎬 **Watch This First:** [Linux Command Line Piping and Redirection (YouTube)](https://youtu.be/iwolPf6kN-k)  
-📖 **Read More:** [Ubuntu Command Line for Beginners](https://ubuntu.com/tutorials/command-line-for-beginners)
-
-
-
-<a href="https://youtu.be/iwolPf6kN-k" target="_blank">
-  <img src="https://youtu.be/iwolPf6kN-k" alt="Watch the video" width="480" height="360" border="0" />
-</a>
-
+🎬 **Watch This First:** [Terminal For Beginners (YouTube)](https://youtu.be/iwolPf6kN-k) 
 
 ---
 
