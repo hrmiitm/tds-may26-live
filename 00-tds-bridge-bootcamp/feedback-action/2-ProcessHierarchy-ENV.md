@@ -6,8 +6,6 @@
 **Welcome to your Process Hierarchy refresher!** Have you ever wondered why a variable you create in the terminal vanishes when you close the window, or why configuring `.bashrc` is necessary? It all comes down to how Linux manages processes.
 
 🎬 **Watch This First:** [Understanding Linux Environment Variables & .bashrc (YouTube - 14 min)](https://youtu.be/8hr_qq31gGo)  
-    [Setup ENV in Windows](https://youtu.be/IolxqkL7cD8)  
-    [Setup ENV in MAC/Linux](https://youtu.be/5iWhQWVXosU)  
 
 ---
 
