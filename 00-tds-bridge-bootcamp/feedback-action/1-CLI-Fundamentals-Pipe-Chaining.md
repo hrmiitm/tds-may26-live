@@ -5,7 +5,7 @@
 The terminal can feel intimidating, but it is simply a text-based interface for interacting with your machine. By learning to link commands, you can perform complex operations in seconds that would take minutes using a mouse. 
 
 
-🎬 **Watch This First:** [Terminal For Beginners (YouTube)](https://youtu.be/iwolPf6kN-k) 
+🎬 **Watch This First:** [Terminal For Beginners (YouTube - 2 hour)](https://youtu.be/iwolPf6kN-k) 
 
 ---
 

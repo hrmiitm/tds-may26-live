@@ -4,29 +4,29 @@
 
 **Welcome to your Git Branching refresher!** The true power of Git isn't just backing up your code—it’s the ability to create alternate, safe timelines (branches) to experiment without fear of breaking the main project.
 
-🎬 **Watch This First:** [Git Branching and Merge Conflicts Visually Explained (YouTube)](https://www.google.com/search?q=https://www.youtube.com/results%3Fsearch_query%3DGit%2BBranching%2Band%2BMerge%2BConflicts%2BVisually%2BExplained)
+🎬 **Watch This First:** [Git for Beginners (YouTube- 1 hour)](https://youtu.be/8JJ101D3knE?si=3GjQwgkrxRyD-msh)
 📖 **Read More:** [Atlassian Git Branching Tutorial](https://www.atlassian.com/git/tutorials/using-branches)
 
 ### 🌱 The Absolute Basics: What is Version Control?
 
-Before Git, if you wanted to save versions of a project, you likely named folders like this: `Project`, `Project_Final`, `Project_Final_v2`, `Project_Final_REAL`[cite: 1]. This is chaotic and impossible to scale across a team.
+Before Git, if you wanted to save versions of a project, you likely named folders like this: `Project`, `Project_Final`, `Project_Final_v2`, `Project_Final_REAL`. This is chaotic and impossible to scale across a team.
 
-Version Control Systems (like Git) solve this by tracking the exact history of your project over time[cite: 1]. Instead of copying whole folders, Git takes a lightweight "Snapshot" (called a **Commit**) of your file changes at a specific point in time[cite: 1]. You can safely rewind back to any commit whenever you want.
+Version Control Systems (like Git) solve this by tracking the exact history of your project over time. Instead of copying whole folders, Git takes a lightweight "Snapshot" (called a **Commit**) of your file changes at a specific point in time. You can safely rewind back to any commit whenever you want.
 
 ### ✅ Module Checklist
 
-* [ ] Understand why Version Control is superior to manual copying[cite: 1].
+* [ ] Understand why Version Control is superior to manual copying.
 * [ ] Grasp the three stages: Working Directory, Staging Area, and Repository.
-* [ ] Understand Branching (creating alternate timelines)[cite: 1].
-* [ ] Understand exactly what causes a Merge Conflict[cite: 1].
-* [ ] Safely identify, edit, and resolve a basic conflict[cite: 1].
+* [ ] Understand Branching (creating alternate timelines).
+* [ ] Understand exactly what causes a Merge Conflict.
+* [ ] Safely identify, edit, and resolve a basic conflict.
 
 ### 🧠 The Core Concept: Branching and Merge Conflicts
 
-Imagine you are writing a book. The `main` branch is your official, published draft[cite: 1].
+Imagine you are writing a book. The `main` branch is your official, published draft.
 
-* **Branching:** You want to write an experimental ending without ruining the published book. So, you tell Git to create a **Branch**. A branch is an alternate timeline[cite: 1]. You make changes safely. If you like them, you **Merge** the branch back into the main timeline[cite: 1].
-* **Merge Conflicts:** If you edit Page 10 in your experimental branch, AND a teammate edits the *exact same sentence* on Page 10 in the `main` branch, Git gets confused when trying to merge them[cite: 1]. It stops and says: *"Hey, you both edited the exact same line! I don't know which one to keep."*[cite: 1]. This is a **Merge Conflict**[cite: 1]. You must manually open the file, delete Git's warning markers (`<<<<<<<`), and save the correct text[cite: 1].
+* **Branching:** You want to write an experimental ending without ruining the published book. So, you tell Git to create a **Branch**. A branch is an alternate timeline. You make changes safely. If you like them, you **Merge** the branch back into the main timeline.
+* **Merge Conflicts:** If you edit Page 10 in your experimental branch, AND a teammate edits the *exact same sentence* on Page 10 in the `main` branch, Git gets confused when trying to merge them. It stops and says: *"Hey, you both edited the exact same line! I don't know which one to keep."*. This is a **Merge Conflict**. You must manually open the file, delete Git's warning markers (`<<<<<<<`), and save the correct text.
 
 ### 🏋️ Practice Exercises & Solutions
 

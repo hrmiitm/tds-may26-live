@@ -5,39 +5,41 @@
 
 **Welcome to your API foundational refresher!** APIs sound highly technical, but they are simply digital messengers. They form the backbone of the modern internet, allowing different software applications to communicate securely.
 
-🎬 **Watch This First:** [What is an API? & FastAPI basics (YouTube)](https://www.google.com/search?q=https://www.youtube.com/results%3Fsearch_query%3DWhat%2Bis%2Ban%2BAPI%2Band%2BFastAPI%2Bbasics)
-📖 **Read More:** [FastAPI Official First Steps](https://fastapi.tiangolo.com/tutorial/first-steps/)
+🎬 **Watch This First:** [What is an API? (Search)](https://www.youtube.com/results?search_query=what+is+an+api+%3F)
+📖 **Read More:** [FastAPI For Beginners (YouTube - 2 hour)](https://youtu.be/Lu8lXXlstvM)
+
+---
 
 ### 🌱 The Absolute Basics: What is an API?
 
-API stands for Application Programming Interface[cite: 2]. It is the bridge that allows a frontend application (like a mobile app) to talk to a backend database over the internet[cite: 2].
+API stands for Application Programming Interface. It is the bridge that allows a frontend application (like a mobile app) to talk to a backend database over the internet.
 
-When these applications talk, they need a common language. They usually send data back and forth formatted as **JSON** (JavaScript Object Notation), which looks exactly like a standard Python dictionary: `{"name": "John", "age": 30}`[cite: 2].
+When these applications talk, they need a common language. They usually send data back and forth formatted as **JSON** (JavaScript Object Notation), which looks exactly like a standard Python dictionary: `{"name": "John", "age": 30}`.
 
 ### ✅ Module Checklist
 
-* [ ] Grasp the Client-Server architecture[cite: 2].
-* [ ] Understand standard JSON formatting[cite: 2].
-* [ ] Know the difference between primary HTTP Methods (`GET`, `POST`, `PUT`, `DELETE`)[cite: 2].
+* [ ] Grasp the Client-Server architecture.
+* [ ] Understand standard JSON formatting.
+* [ ] Know the difference between primary HTTP Methods (`GET`, `POST`, `PUT`, `DELETE`).
 * [ ] Understand HTTP Status Codes (200, 404, 500).
-* [ ] Build a minimal API using Python's FastAPI[cite: 2].
-* [ ] Test endpoints using `curl` and the browser[cite: 2].
+* [ ] Build a minimal API using Python's FastAPI.
+* [ ] Test endpoints using `curl` and the browser.
 
 ### 🧠 The Core Concept: Client, Server, and HTTP
 
 **Think of a Restaurant:**
 
-1. **You (The Client):** You sit at the table and want to view the menu or order a burger[cite: 2].
-2. **The Waiter (The API):** You tell the waiter your order. The waiter securely carries the message to the kitchen[cite: 2].
-3. **The Kitchen (The Server):** They do the heavy lifting, cook the burger, and give it to the waiter to return to you[cite: 2].
+1. **You (The Client):** You sit at the table and want to view the menu or order a burger.
+2. **The Waiter (The API):** You tell the waiter your order. The waiter securely carries the message to the kitchen.
+3. **The Kitchen (The Server):** They do the heavy lifting, cook the burger, and give it to the waiter to return to you.
 
 **HTTP Methods:**
-When sending these messages, the web uses specific HTTP verbs[cite: 2]:
+When sending these messages, the web uses specific HTTP verbs:
 
-* `GET`: "Give me data" (Reading the menu)[cite: 2].
-* `POST`: "Here is new data, save it" (Placing a new order)[cite: 2].
-* `PUT`/`PATCH`: "Update this existing data" (Changing your order)[cite: 2].
-* `DELETE`: "Remove this data" (Canceling your order)[cite: 2].
+* `GET`: "Give me data" (Reading the menu).
+* `POST`: "Here is new data, save it" (Placing a new order).
+* `PUT`/`PATCH`: "Update this existing data" (Changing your order).
+* `DELETE`: "Remove this data" (Canceling your order).
 
 ### 🏋️ Practice Exercises & Solutions
 

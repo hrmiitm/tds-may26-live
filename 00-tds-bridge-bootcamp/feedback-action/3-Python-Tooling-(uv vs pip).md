@@ -5,33 +5,35 @@
 
 **Welcome to your modern Python refresher!** The Python ecosystem is evolving rapidly. While `pip` and `venv` are the classics, the industry is moving toward all-in-one, blazingly fast tools like `uv`. Let's understand why this shift is happening.
 
-🎬 **Watch This First:** [Astral UV: The Future of Python Tooling (YouTube)](https://www.google.com/search?q=https://www.youtube.com/results%3Fsearch_query%3DAstral%2BUV%2BThe%2BFuture%2Bof%2BPython%2BTooling)
+🎬 **Watch This First:** [Astral UV: The Future of Python Tooling (YouTube - 30 min)](https://youtu.be/AMdG7IjgSPM)
 📖 **Read More:** [Astral `uv` Official Documentation](https://docs.astral.sh/uv/)
+
+---
 
 ### 🌱 The Absolute Basics: Why do we need Environments?
 
-Python doesn't have every tool built-in[cite: 3]. Developers rely on 'Packages' (third-party code libraries) like `requests` or `fastapi`[cite: 3].
+Python doesn't have every tool built-in. Developers rely on 'Packages' (third-party code libraries) like `requests` or `fastapi`.
 
-If you use `pip install` globally, packages are installed into your main "System Python"[cite: 3]. This is dangerous. Project A might require `django==3.0`, while Project B requires `django==4.0`[cite: 3]. If they share the System Python, one project will inevitably break.
-**The Solution:** Virtual Environments (`.venv`). These are isolated, mini-Python installations specific to just one project[cite: 3].
+If you use `pip install` globally, packages are installed into your main "System Python". This is dangerous. Project A might require `django==3.0`, while Project B requires `django==4.0`. If they share the System Python, one project will inevitably break.
+**The Solution:** Virtual Environments (`.venv`). These are isolated, mini-Python installations specific to just one project.
 
 ### ✅ Module Checklist
 
-* [ ] Understand the dangers of "dependency hell" and global package installations[cite: 3].
-* [ ] Grasp what a Virtual Environment is[cite: 3].
-* [ ] Learn the drawbacks of traditional tools (`pip` + `venv`)[cite: 3].
-* [ ] Master modern environment and dependency setup with `uv`[cite: 3].
-* [ ] Understand the importance of `pyproject.toml` and lockfiles (`uv.lock`)[cite: 3].
+* [ ] Understand the dangers of "dependency hell" and global package installations.
+* [ ] Grasp what a Virtual Environment is.
+* [ ] Learn the drawbacks of traditional tools (`pip` + `venv`).
+* [ ] Master modern environment and dependency setup with `uv`.
+* [ ] Understand the importance of `pyproject.toml` and lockfiles (`uv.lock`).
 
 ### 🧠 The Core Concept: Modern Tooling with `uv`
 
-Historically, Python project setup was tedious. You had to run `python -m venv .venv`, remember the exact command to activate it, use `pip install`, and manually freeze dependencies into a `requirements.txt` file[cite: 3].
+Historically, Python project setup was tedious. You had to run `python -m venv .venv`, remember the exact command to activate it, use `pip install`, and manually freeze dependencies into a `requirements.txt` file.
 
 **`uv` replaces all of this with a unified workflow.** Written in Rust, it is incredibly fast.
 
-* `uv init` scaffolds your project automatically[cite: 3].
-* `uv add <package>` automatically handles the virtual environment creation, installs the package, and updates a `pyproject.toml` file[cite: 3].
-* **The Lockfile:** `uv` generates a `uv.lock` file. A lockfile guarantees deterministic, reproducible builds[cite: 3]. If your teammate clones your project, the lockfile ensures they get the exact same environment—down to the last sub-dependency—preventing the dreaded "it works on my machine" problem[cite: 3].
+* `uv init` scaffolds your project automatically.
+* `uv add <package>` automatically handles the virtual environment creation, installs the package, and updates a `pyproject.toml` file.
+* **The Lockfile:** `uv` generates a `uv.lock` file. A lockfile guarantees deterministic, reproducible builds. If your teammate clones your project, the lockfile ensures they get the exact same environment—down to the last sub-dependency—preventing the dreaded "it works on my machine" problem.
 
 ### 🏋️ Practice Exercises & Solutions
 
